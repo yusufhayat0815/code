@@ -1,13 +1,18 @@
 num1 = int(input(""))
-num2 = int(input(""))
 funtion =(input(""))
-  if == "+"
+num2 = int(input(""))
+
+if funtion == "+":
         return (num1+num2)
-    elif == "-"
+
+elif funtion == "-":
         return (num1-num2)
-    elif == "*"
+
+elif funtion == "*":
         return (num1*num2)
-    elif == "/"
+
+elif funtion == "/":
         return (num1/num2)
+
 print (num1, funtion, num2 "=" )
    
