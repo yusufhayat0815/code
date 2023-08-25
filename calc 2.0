@@ -3,16 +3,16 @@ funtion =(input(""))
 num2 = int(input(""))
 
 if funtion == "+":
-        return (num1+num2)
+    return add(num1+num2)
 
 elif funtion == "-":
-        return (num1-num2)
+    return sub(num1-num2)
 
 elif funtion == "*":
-        return (num1*num2)
+    return mult(num1*num2)
 
 elif funtion == "/":
-        return (num1/num2)
+    return div(num1/num2)
 
 print (num1, funtion, num2 "=" )
    
