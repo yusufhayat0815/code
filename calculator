@@ -18,10 +18,25 @@ print ("4.divide")
 
 chocie = input ("select 1/2/3/4")
 
-num1 = (input("first number")) = x
-num2 = (input("second number")) = y
+num1 = (input("first number")) 
+num2 = (input("second number")) 
 
-if chocie = "1"
-    print (num1 "+" num2 "=" addiction)
+if chocie == "1":
+    print (num1, "+", num2, "=", addiction(num1,num2))
+
+elif chocie == "2":
+    print (num1, "-", num2, "-", subtraction(num1,num2))
+
+elif chocie == "3":
+    print (num1, "*", num2, "=", multipy(num1,num2))
+
+elif chocie == "4":
+    print (num1, "/", num2, "=", divide(num1,num2))
+
+
+
+
+
+
 
 
