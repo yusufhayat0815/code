@@ -1,39 +1,52 @@
-def addiction (x,y):
-    return x+y
+while True: 
+    def addiction (x,y):
+        return x+y
+    
+    def subtraction (x,Y):
+        return x-y
 
-def subtraction (x,Y):
-    return x-y
+    def multipy (x,y):
+        return x*y
 
-def multipy (x,y):
-    return x*y
+    def divide (x,y):
+        if y != 0:
+            return x/y
+        else:
+            print ("cannot divide by 0")
 
-def divide (x,y):
-    if y != 0:
-        return x/y
+    print ("select operation")
+    print ("1.addiction")
+    print ("2.subtraction")
+    print ("3.multiply")
+    print ("4.divide")
+    chocie = input ("select 1/2/3/4: ")
+
+    num1 = int(input("first number: ")) 
+    num2 = int(input("second number: ")) 
+
+    if chocie == "1":
+        print (num1, "+", num2, "=", addiction(num1,num2))
+
+    elif chocie == "2":
+        print (num1, "-", num2, "-", subtraction(num1,num2))
+
+    elif chocie == "3":
+        print (num1, "*", num2, "=", multipy(num1,num2))
+
+    elif chocie == "4":
+        print (num1, "/", num2, "=", divide(num1,num2))
     else:
-        print ("cannot divide by 0")
+        print ("invalid Imput")
 
-print ("select operation")
-print ("1.addiction")
-print ("2.subtraction")
-print ("3.multiply")
-print ("4.divide")
-chocie = input ("select 1/2/3/4: ")
+restart 
 
-num1 = int(input("first number: ")) 
-num2 = int(input("second number: ")) 
 
-if chocie == "1":
-    print (num1, "+", num2, "=", addiction(num1,num2))
 
-elif chocie == "2":
-    print (num1, "-", num2, "-", subtraction(num1,num2))
 
-elif chocie == "3":
-    print (num1, "*", num2, "=", multipy(num1,num2))
 
-elif chocie == "4":
-    print (num1, "/", num2, "=", divide(num1,num2))
-else:
-    print ("invalid Imput")
+
+
+
+
+
 
