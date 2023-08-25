@@ -1,18 +1,20 @@
-print ("pls enter sentecnce")
-num1 = int(input())
-oporater =(input())
-num2 = int(input())
+while True: 
+    print ("pls enter sentecnce")
+    num1 = int(input())
+    oporater =(input())
+    num2 = int(input())
 
-if oporater == "+":
-    result = num1 + num2
+    if oporater == "+":
+        result = num1 + num2
 
-elif oporater == "-":
-    result = num1 - num2
+    elif oporater == "-":
+        result = num1 - num2
 
-elif oporater == "*":
-    result = num1 * num2
+    elif oporater == "*":
+        result = num1 * num2
 
-elif oporater == "/":
-    result = num1 / num2
+    elif oporater == "/":
+        result = num1 / num2
 
-print(result) 
+    print(result) 
+restart 
