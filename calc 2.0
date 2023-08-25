@@ -1,18 +1,17 @@
 num1 = int(input(""))
-funtion =(input(""))
+oporater =(input(""))
 num2 = int(input(""))
 
-if funtion == "+":
-    return add(num1+num2)
+if oporater == "+":
+    num1+num2
 
-elif funtion == "-":
-    return sub(num1-num2)
+elif oporater == "-":
+    num1-num2
 
-elif funtion == "*":
-    return mult(num1*num2)
+elif oporater == "*":
+    num1*num2
 
-elif funtion == "/":
-    return div(num1/num2)
+elif oporater == "/":
+    num1/num2
 
-print (num1, funtion, num2 "=" )
-   
+print (num1, oporater, num2)
