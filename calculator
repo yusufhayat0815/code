@@ -1,0 +1,27 @@
+def addiction (x,y):
+    return x+y
+
+def subtraction (x,Y):
+    return x-y
+
+def multipy (x,y):
+    return x*y
+
+def divide (x,y):
+    return x/y
+
+print ("select operation")
+print ("1.addiction")
+print ("2.subtraction")
+print ("3.multiply")
+print ("4.divide")
+
+chocie = input ("select 1/2/3/4")
+
+num1 = (input("first number")) = x
+num2 = (input("second number")) = y
+
+if chocie = "1"
+    print (num1 "+" num2 "=" addiction)
+
+
