@@ -1,17 +1,18 @@
-num1 = int(input(""))
-oporater =(input(""))
-num2 = int(input(""))
+print ("pls enter sentecnce")
+num1 = int(input())
+oporater =(input())
+num2 = int(input())
 
 if oporater == "+":
-    num1+num2
+    result = num1 + num2
 
 elif oporater == "-":
-    num1-num2
+    result = num1 - num2
 
 elif oporater == "*":
-    num1*num2
+    result = num1 * num2
 
 elif oporater == "/":
-    num1/num2
+    result = num1 / num2
 
-print (num1, oporater, num2)
+print(result) 
