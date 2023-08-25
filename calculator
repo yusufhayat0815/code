@@ -15,11 +15,10 @@ print ("1.addiction")
 print ("2.subtraction")
 print ("3.multiply")
 print ("4.divide")
+chocie = input ("select 1/2/3/4: ")
 
-chocie = input ("select 1/2/3/4")
-
-num1 = (input("first number")) 
-num2 = (input("second number")) 
+num1 = int(input("first number: ")) 
+num2 = int(input("second number: ")) 
 
 if chocie == "1":
     print (num1, "+", num2, "=", addiction(num1,num2))
@@ -32,11 +31,6 @@ elif chocie == "3":
 
 elif chocie == "4":
     print (num1, "/", num2, "=", divide(num1,num2))
-
-
-
-
-
-
-
+else:
+    print ("invalid Imput")
 
