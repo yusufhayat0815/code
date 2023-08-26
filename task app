@@ -4,7 +4,8 @@ def add_task(task):
     tasks.append(task)
 
 def view_task():
-    print enumerate(tasks, start=1)
+    for i, task in enumerate(tasks, start=1):
+        print (i, task)
 
 while True:
     print ("1.Add tasks")
@@ -21,12 +22,5 @@ while True:
     elif chocie == "2":
         view_task()
 
-    elif chocie == "3":
-        
-    
-    elif chocie == "4":
-    
-    
-    elif chocie == "5":
 
 restart  
