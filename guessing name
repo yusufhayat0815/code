@@ -2,17 +2,23 @@ import random
 
 random_num = random.randint (1,100)
 
-gusse = int(input("enter gusse"))
+gusse = int(input("enter gusse: "))
 
-while True: 
+while random_num != gusse: 
 
     if random_num > gusse:
         print ("gusse lower")
         
-    if random_num < gusse:
+    elif random_num < gusse:
         print ("gusse higher")
         
-    if random_num == gusse:
+    elif random_num == gusse:
         print ("Correctr")
 
-restart 
+choice = input("do you want to try agian Y/N?")
+    
+if choice == ("Y"):
+    restart 
+    
+elif choice == ("N"):
+    print ("thank you for playing")
