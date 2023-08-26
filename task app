@@ -1,7 +1,7 @@
 tasks = []
 
 def add_task(task):
-    tasks.append({"task": task, "done": False})
+    tasks.append(task)
 
 def view_task():
     print (tasks)
