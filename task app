@@ -1,0 +1,14 @@
+while True:
+    print ("1.Add tasks")
+    print ("2.View tasks")
+    print ("3.Mark tasks as done")
+    print ("4.Remove tasks")
+    print ("5.Save to file")
+    chocie = input ("select 1/2/3/4/5: ")
+    
+    if chocie == "1":
+        task1 = input("add task:")
+        
+    elif chocie == "2":
+        print (task1)
+restart  
