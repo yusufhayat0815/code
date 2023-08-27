@@ -2,15 +2,15 @@ import random
 
 random_num = random.randint (1,100)
 
-gusse = int(input("enter gusse: "))
-
 while True:
 
+    gusse = int(input("enter gusse: "))
+   
     if random_num > gusse:
-        print ("gusse lower")
+        print ("gusse higher")
         
     elif random_num < gusse:
-        print ("gusse higher")
+        print ("gusse lower")
         
     elif random_num == gusse:
         print ("Correctr")
