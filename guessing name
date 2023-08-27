@@ -4,7 +4,7 @@ random_num = random.randint (1,100)
 
 gusse = int(input("enter gusse: "))
 
-while random_num != gusse: 
+while True:
 
     if random_num > gusse:
         print ("gusse lower")
@@ -15,10 +15,11 @@ while random_num != gusse:
     elif random_num == gusse:
         print ("Correctr")
 
-choice = input("do you want to try agian Y/N?")
+    choice = input("do you want to try agian Y/N?: ")
     
-if choice == ("Y"):
-    restart 
+    if choice == ("Y"):
+        restart 
     
-elif choice == ("N"):
-    print ("thank you for playing")
+    elif choice == ("N"):
+        print ("thank you for playing")
+ 
